@@ -20,7 +20,7 @@ public void sierpinski(int x, int y, int len)
     triangle(x,y,x + len,y,x+len/2,y-len);
   }
    else {
-     stroke(0);
+     stroke(250,255,21);
      fill(0,255,100);
      sierpinski(x,y,len/2);
      fill(255,0,100);
